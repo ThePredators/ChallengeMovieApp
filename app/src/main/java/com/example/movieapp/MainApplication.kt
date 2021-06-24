@@ -13,7 +13,7 @@ class MainApplication: Application() {
         super.onCreate()
         if (BuildConfig.ENABLE_DEBUG) {
             setupTimber()
-            setupStetho()
+//            setupStetho()
             setupCustomActivityOnCrash()
         }
     }

@@ -54,9 +54,9 @@ object APIModule {
                     ).build()
             ))
             .addInterceptor(logsInterceptor)
-        if (BuildConfig.ENABLE_DEBUG) {
-            okBuilder.addNetworkInterceptor(StethoInterceptor())
-        }
+//        if (BuildConfig.ENABLE_DEBUG) {
+//            okBuilder.addNetworkInterceptor(StethoInterceptor())
+//        }
         return okBuilder.build()
     }
 
