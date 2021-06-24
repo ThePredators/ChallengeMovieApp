@@ -26,14 +26,8 @@ class MovieDetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         arguments?.getString(MainFragment.MOVIE_TITLE)?.let {
             viewModel.loadMovie(it).observe(viewLifecycleOwner, { movie ->
-                binding.apply {
-                    this.movie = movie
-                }
+                binding.movie = movie
             })
         }
-    }
-
-    companion object {
-        fun newInstance() = MovieDetailFragment()
     }
 }

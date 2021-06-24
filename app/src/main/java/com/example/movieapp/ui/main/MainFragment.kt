@@ -44,6 +44,5 @@ class MainFragment : Fragment(), MainAdapter.MovieListener {
 
     companion object {
         var MOVIE_TITLE = "MOVIE_TITLE"
-        fun newInstance() = MainFragment()
     }
 }
