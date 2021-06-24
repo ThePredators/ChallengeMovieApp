@@ -107,8 +107,10 @@ dependencies {
     annotationProcessor "com.github.bumptech.glide:compiler:$version_glide"
 
     // Others
-    implementation("com.github.pwittchen:reactivenetwork-rx2:3.0.8")
     implementation 'com.jakewharton.timber:timber:4.7.1'
     implementation 'cat.ereza:customactivityoncrash:2.3.0'
+
+    // MayBe
+    implementation("com.github.pwittchen:reactivenetwork-rx2:3.0.8")
     implementation 'org.modelmapper:modelmapper:2.4.2'
 }
