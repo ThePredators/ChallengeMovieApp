@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a test app that display movies list from this [server](https://www.digitalia.be/coding_test/movies.json)
+This is a test app that display movies list from this [server](https://followmi.fr/da/FakeAPI/movies.json)
 
 It embed the following dependencies :
 
