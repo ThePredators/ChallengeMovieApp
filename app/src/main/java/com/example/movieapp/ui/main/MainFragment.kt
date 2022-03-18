@@ -31,9 +31,9 @@ class MainFragment : Fragment(), MainAdapter.MovieListener {
             layoutManager = GridLayoutManager(context, 2)
             adapter = mainAdapter
         }
-        viewModel.movies.observe(viewLifecycleOwner, {
+        viewModel.movies.observe(viewLifecycleOwner) {
             mainAdapter.setMovies(it)
-        })
+        }
     }
 
     override fun onMovieSelected(movieTitle: String) {
