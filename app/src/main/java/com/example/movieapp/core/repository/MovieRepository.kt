@@ -4,7 +4,6 @@ import androidx.lifecycle.liveData
 import com.example.movieapp.core.api.datasource.RemoteMovieDataSource
 import com.example.movieapp.core.data.datasource.LocalMovieDataSource
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 class MovieRepository @Inject constructor(
@@ -12,6 +11,7 @@ class MovieRepository @Inject constructor(
     var remoteMovieDataSource: RemoteMovieDataSource
 ) {
 
+    // TODO: Introduce Flows
     fun loadMovies() = liveData(Dispatchers.IO) {
         val retrieveMovies = remoteMovieDataSource.getMovies()
         retrieveMovies.let {
@@ -23,5 +23,4 @@ class MovieRepository @Inject constructor(
     }
 
     fun loadMovie(movieTitle: String) = localMovieDataSource.getMovieByTitle(movieTitle)
-
 }

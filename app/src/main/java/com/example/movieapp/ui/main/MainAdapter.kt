@@ -3,7 +3,6 @@ package com.example.movieapp.ui.main
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.movieapp.core.api.dtos.MovieDTO
 import com.example.movieapp.core.data.entities.MovieEntity
 import com.example.movieapp.databinding.MovieItemBinding
 
