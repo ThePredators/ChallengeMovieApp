@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.example.movieapp.core.data.MovieBdd
 import com.example.movieapp.core.data.daos.MovieDao
-import com.example.movieapp.core.data.datasource.LocalMovieDataSourceImpl
+import com.example.movieapp.core.data.datasource.impl.LocalMovieDataSourceImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

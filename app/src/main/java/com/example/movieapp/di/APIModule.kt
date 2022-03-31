@@ -1,11 +1,9 @@
 package com.example.movieapp.di
 
 import com.example.movieapp.BuildConfig
-import com.example.movieapp.core.api.datasource.RemoteMovieDataSource
-import com.example.movieapp.core.api.datasource.RemoteMovieDataSourceImpl
+import com.example.movieapp.core.api.datasource.impl.RemoteMovieDataSourceImpl
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import com.google.gson.GsonBuilder
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

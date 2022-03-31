@@ -1,8 +1,9 @@
-package com.example.movieapp.core.data.datasource
+package com.example.movieapp.core.data.datasource.impl
 
 import androidx.lifecycle.LiveData
 import com.example.movieapp.core.api.dtos.MovieDTO
 import com.example.movieapp.core.data.daos.MovieDao
+import com.example.movieapp.core.data.datasource.LocalMovieDataSource
 import com.example.movieapp.core.data.entities.MovieEntity
 import timber.log.Timber
 import javax.inject.Inject

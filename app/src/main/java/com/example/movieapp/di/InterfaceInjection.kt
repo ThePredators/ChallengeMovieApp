@@ -1,9 +1,9 @@
 package com.example.movieapp.di
 
 import com.example.movieapp.core.api.datasource.RemoteMovieDataSource
-import com.example.movieapp.core.api.datasource.RemoteMovieDataSourceImpl
+import com.example.movieapp.core.api.datasource.impl.RemoteMovieDataSourceImpl
 import com.example.movieapp.core.data.datasource.LocalMovieDataSource
-import com.example.movieapp.core.data.datasource.LocalMovieDataSourceImpl
+import com.example.movieapp.core.data.datasource.impl.LocalMovieDataSourceImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
